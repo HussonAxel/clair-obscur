@@ -38,33 +38,33 @@ export default function CharacterSelectMenu() {
 
   return (
     <section
-      className="min-h-screen bg-black flex flex-col justify-center overflow-hidden"
+      className="bg-black flex flex-col justify-center overflow-hidden h-[calc(100vh-66px)]"
       onWheel={handleScroll}
     >
-      <div className="w-full flex-1 group">
+      <div className="w-full h-[calc(100vh-66px)] group overflow-hidden">
         {visibleCharacters.map((character) => (
           <Link to="/character/$name" params={{ name: character.name }} key={character.id.toString()}>
             <div
               key={character.id.toString()}
-              className="relative group/item border-b-2 border-white/20"
+              className="relative group/item border-b-2 border-white/20 h-[calc((100vh-66px)/4)]"
             >
               <video
                 src={character.video}
                 className="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-0 group-hover/item:opacity-100 transition-opacity duration-500 z-0"
                 autoPlay
                 loop
-              muted
-              playsInline
-            />
-            <div className="grid grid-cols-2 items-start w-full py-8 transition-opacity duration-300 opacity-100 group-hover:opacity-30 group-hover/item:!opacity-100 relative z-10">
-              <span className="text-white text-lg font-extralight pl-32 tracking-widest select-none">
-                {String(character.id).padStart(2, "0")}
-              </span>
-              <span className="text-white text-[7vw] font-trajan text-right pr-32 leading-none select-none font-extralight">
-                {character.name}
-              </span>
+                muted
+                playsInline
+              />
+              <div className="grid grid-cols-2 items-center w-full h-full transition-opacity duration-300 opacity-100 group-hover:opacity-30 group-hover/item:!opacity-100 relative z-10">
+                <span className="text-white text-lg font-extralight pl-32 tracking-widest select-none">
+                  {String(character.id).padStart(2, "0")}
+                </span>
+                <span className="text-white text-[7vw] font-trajan text-right pr-32 leading-none select-none font-extralight">
+                  {character.name}
+                </span>
+              </div>
             </div>
-          </div>
           </Link>
         ))}
       </div>
