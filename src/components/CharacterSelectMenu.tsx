@@ -4,10 +4,10 @@ export default function CharacterSelectMenu() {
   return (
     <section className="min-h-screen bg-black flex flex-col justify-center">
       <div className="w-full max-w-[1600px] mx-auto group">
-        {characters.map((character, idx) => (
+        {characters.map((character) => (
           <div
             key={character.id}
-            className="relative group/item overflow-hidden"
+            className="relative group/item overflow-hidden border-b-2 border-white/20"
           >
             <video
               src={character.video}
@@ -22,12 +22,9 @@ export default function CharacterSelectMenu() {
                 {String(character.id).padStart(2, "0")}
               </span>
               <span className="text-white text-[7vw] font-trajan text-right pr-32 leading-none select-none font-extralight">
-                {character.name}
+                {character.image}
               </span>
             </div>
-            {idx < characters.length - 1 && (
-              <div className="absolute left-28 right-28 bottom-0 h-px bg-white/40 z-20" />
-            )}
           </div>
         ))}
       </div>
