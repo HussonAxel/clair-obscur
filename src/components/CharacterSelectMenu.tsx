@@ -10,7 +10,7 @@ interface Character {
 
 export default function CharacterSelectMenu() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const displayCount = 3;
+  const displayCount = 4;
 
   const getVisibleCharacters = (): Character[] => {
     if (characters.length === 0) {
@@ -41,7 +41,7 @@ export default function CharacterSelectMenu() {
       className="min-h-screen bg-black flex flex-col justify-center overflow-hidden"
       onWheel={handleScroll}
     >
-      <div className="w-full mx-auto group">
+      <div className="w-full flex-1 group">
         {visibleCharacters.map((character) => (
           <Link to="/character/$name" params={{ name: character.name }} key={character.id.toString()}>
             <div

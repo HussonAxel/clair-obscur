@@ -11,10 +11,38 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as WeaponsImport } from './routes/weapons'
+import { Route as SkillsImport } from './routes/skills'
+import { Route as PictosImport } from './routes/pictos'
+import { Route as CharactersImport } from './routes/characters'
 import { Route as IndexImport } from './routes/index'
 import { Route as CharacterNameImport } from './routes/character.$name'
 
 // Create/Update Routes
+
+const WeaponsRoute = WeaponsImport.update({
+  id: '/weapons',
+  path: '/weapons',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const SkillsRoute = SkillsImport.update({
+  id: '/skills',
+  path: '/skills',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const PictosRoute = PictosImport.update({
+  id: '/pictos',
+  path: '/pictos',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const CharactersRoute = CharactersImport.update({
+  id: '/characters',
+  path: '/characters',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
@@ -39,6 +67,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
+    '/characters': {
+      id: '/characters'
+      path: '/characters'
+      fullPath: '/characters'
+      preLoaderRoute: typeof CharactersImport
+      parentRoute: typeof rootRoute
+    }
+    '/pictos': {
+      id: '/pictos'
+      path: '/pictos'
+      fullPath: '/pictos'
+      preLoaderRoute: typeof PictosImport
+      parentRoute: typeof rootRoute
+    }
+    '/skills': {
+      id: '/skills'
+      path: '/skills'
+      fullPath: '/skills'
+      preLoaderRoute: typeof SkillsImport
+      parentRoute: typeof rootRoute
+    }
+    '/weapons': {
+      id: '/weapons'
+      path: '/weapons'
+      fullPath: '/weapons'
+      preLoaderRoute: typeof WeaponsImport
+      parentRoute: typeof rootRoute
+    }
     '/character/$name': {
       id: '/character/$name'
       path: '/character/$name'
@@ -53,36 +109,75 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/characters': typeof CharactersRoute
+  '/pictos': typeof PictosRoute
+  '/skills': typeof SkillsRoute
+  '/weapons': typeof WeaponsRoute
   '/character/$name': typeof CharacterNameRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/characters': typeof CharactersRoute
+  '/pictos': typeof PictosRoute
+  '/skills': typeof SkillsRoute
+  '/weapons': typeof WeaponsRoute
   '/character/$name': typeof CharacterNameRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
+  '/characters': typeof CharactersRoute
+  '/pictos': typeof PictosRoute
+  '/skills': typeof SkillsRoute
+  '/weapons': typeof WeaponsRoute
   '/character/$name': typeof CharacterNameRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/character/$name'
+  fullPaths:
+    | '/'
+    | '/characters'
+    | '/pictos'
+    | '/skills'
+    | '/weapons'
+    | '/character/$name'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/character/$name'
-  id: '__root__' | '/' | '/character/$name'
+  to:
+    | '/'
+    | '/characters'
+    | '/pictos'
+    | '/skills'
+    | '/weapons'
+    | '/character/$name'
+  id:
+    | '__root__'
+    | '/'
+    | '/characters'
+    | '/pictos'
+    | '/skills'
+    | '/weapons'
+    | '/character/$name'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CharactersRoute: typeof CharactersRoute
+  PictosRoute: typeof PictosRoute
+  SkillsRoute: typeof SkillsRoute
+  WeaponsRoute: typeof WeaponsRoute
   CharacterNameRoute: typeof CharacterNameRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CharactersRoute: CharactersRoute,
+  PictosRoute: PictosRoute,
+  SkillsRoute: SkillsRoute,
+  WeaponsRoute: WeaponsRoute,
   CharacterNameRoute: CharacterNameRoute,
 }
 
@@ -97,11 +192,27 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
+        "/characters",
+        "/pictos",
+        "/skills",
+        "/weapons",
         "/character/$name"
       ]
     },
     "/": {
       "filePath": "index.tsx"
+    },
+    "/characters": {
+      "filePath": "characters.tsx"
+    },
+    "/pictos": {
+      "filePath": "pictos.tsx"
+    },
+    "/skills": {
+      "filePath": "skills.tsx"
+    },
+    "/weapons": {
+      "filePath": "weapons.tsx"
     },
     "/character/$name": {
       "filePath": "character.$name.tsx"
