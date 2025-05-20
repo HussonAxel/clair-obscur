@@ -12,12 +12,19 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
+import { Route as CharacterNameImport } from './routes/character.$name'
 
 // Create/Update Routes
 
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const CharacterNameRoute = CharacterNameImport.update({
+  id: '/character/$name',
+  path: '/character/$name',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -32,6 +39,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
+    '/character/$name': {
+      id: '/character/$name'
+      path: '/character/$name'
+      fullPath: '/character/$name'
+      preLoaderRoute: typeof CharacterNameImport
+      parentRoute: typeof rootRoute
+    }
   }
 }
 
@@ -39,32 +53,37 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/character/$name': typeof CharacterNameRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/character/$name': typeof CharacterNameRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
+  '/character/$name': typeof CharacterNameRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/character/$name'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/character/$name'
+  id: '__root__' | '/' | '/character/$name'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CharacterNameRoute: typeof CharacterNameRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CharacterNameRoute: CharacterNameRoute,
 }
 
 export const routeTree = rootRoute
@@ -77,11 +96,15 @@ export const routeTree = rootRoute
     "__root__": {
       "filePath": "__root.tsx",
       "children": [
-        "/"
+        "/",
+        "/character/$name"
       ]
     },
     "/": {
       "filePath": "index.tsx"
+    },
+    "/character/$name": {
+      "filePath": "character.$name.tsx"
     }
   }
 }

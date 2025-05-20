@@ -1,5 +1,6 @@
 import { characters } from "../data/characters";
 import { useState } from "react";
+import { Link } from "@tanstack/react-router";
 
 interface Character {
   id: number | string;
@@ -42,15 +43,16 @@ export default function CharacterSelectMenu() {
     >
       <div className="w-full mx-auto group">
         {visibleCharacters.map((character) => (
-          <div
-            key={character.id.toString()}
-            className="relative group/item overflow-hidden border-b-2 border-white/20"
-          >
-            <video
-              src={character.video}
-              className="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-0 group-hover/item:opacity-100 transition-opacity duration-500 z-0"
-              autoPlay
-              loop
+          <Link to="/character/$name" params={{ name: character.name }} key={character.id.toString()}>
+            <div
+              key={character.id.toString()}
+              className="relative group/item border-b-2 border-white/20"
+            >
+              <video
+                src={character.video}
+                className="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-0 group-hover/item:opacity-100 transition-opacity duration-500 z-0"
+                autoPlay
+                loop
               muted
               playsInline
             />
@@ -63,6 +65,7 @@ export default function CharacterSelectMenu() {
               </span>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </section>
