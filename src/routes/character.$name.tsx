@@ -1,6 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { characters } from '@/data/characters'
 import { useParams } from '@tanstack/react-router'
+import FilmGallery from '@/components/ui/FilmGallery'
+import CharacterBiography from '@/components/CharacterBiography'
 export const Route = createFileRoute('/character/$name')({
   component: RouteComponent,
 })
@@ -12,5 +14,17 @@ function RouteComponent() {
   if (!character) {
     return <div>Character not found</div>
   }
-  return <div>Hello "/character/character/$name"!</div>
+  return (
+    <div>
+      <CharacterBiography 
+        characterName={character.name} 
+        characterPortrait={character.portrait} 
+        characterBiography={character.description} 
+        characterWeapon={character.weaponType!} 
+        characterStats={character.attributes!} 
+        characterStartingSkills={character.startingSkills!} 
+      />
+      <FilmGallery />
+    </div>
+  )
 }

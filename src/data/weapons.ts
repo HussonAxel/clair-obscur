@@ -3,6 +3,7 @@ export const weapons = [
     name: "Abysseram",
     character: "Gustave", 
     element: "Physical",
+    imageName: "abysseram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       vitality: "S",
@@ -18,6 +19,7 @@ export const weapons = [
     name: "Blodam",
     character: "Gustave",
     element: "Light",
+    imageName: "blodam_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3487,
     attributes: {
       defense: "A",
@@ -33,6 +35,7 @@ export const weapons = [
     name: "Chevalam",
     character: "Gustave",
     element: "Physical",
+    imageName: "chevalam_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       agility: "S",
@@ -48,6 +51,7 @@ export const weapons = [
     name: "Confuso",
     character: "Gustave",
     element: "Light",
+    imageName: "confuso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 741,
     attributes: {
       agility: "A",
@@ -63,6 +67,7 @@ export const weapons = [
     name: "Contorso",
     character: "Gustave",
     element: "Lightning",
+    imageName: "contorso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2841,
     attributes: {
       defense: "A",
@@ -78,6 +83,7 @@ export const weapons = [
     name: "Corpeso",
     character: "Gustave",
     element: "Fire",
+    imageName: "corpeso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3648,
     attributes: {
       vitality: "A",
@@ -93,6 +99,7 @@ export const weapons = [
     name: "Cruleram",
     character: "Gustave",
     element: "Ice",
+    imageName: "cruleram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3454,
     attributes: {
       defense: "S",
@@ -108,6 +115,7 @@ export const weapons = [
     name: "Cultam",
     character: "Gustave",
     element: "Dark",
+    imageName: "cultam_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3132,
     attributes: {
       defense: "S",
@@ -123,6 +131,7 @@ export const weapons = [
     name: "Danseso",
     character: "Gustave",
     element: "Fire",
+    imageName: "danseso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2970,
     attributes: {
       agility: "A",
@@ -138,6 +147,7 @@ export const weapons = [
     name: "Delaram",
     character: "Gustave",
     element: "Light",
+    imageName: "delaram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3390,
     attributes: {
       vitality: "A",
@@ -153,6 +163,7 @@ export const weapons = [
     name: "Demonam",
     character: "Gustave",
     element: "Light",
+    imageName: "demonam_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2809,
     attributes: {
       defense: "A",
@@ -168,6 +179,7 @@ export const weapons = [
     name: "Dreameso",
     character: "Gustave",
     element: "Physical",
+    imageName: "dreameso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       agility: "S",
@@ -183,6 +195,7 @@ export const weapons = [
     name: "Dualiso",
     character: "Gustave",
     element: "Lightning",
+    imageName: "dualiso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 1776,
     attributes: {
       vitality: "A",
@@ -198,6 +211,7 @@ export const weapons = [
     name: "Gaulteram",
     character: "Gustave",
     element: "Earth",
+    imageName: "gaulteram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3261,
     attributes: {
       agility: "S",
@@ -213,6 +227,7 @@ export const weapons = [
     name: "Gesam",
     character: "Gustave",
     element: "Physical",
+    imageName: "gesam_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       attribute1: "A",
@@ -228,6 +243,7 @@ export const weapons = [
     name: "Glaceso",
     character: "Gustave",
     element: "Ice",
+    imageName: "glaceso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2873,
     attributes: {
       defense: "A",
@@ -243,6 +259,7 @@ export const weapons = [
     name: "Lanceram",
     character: "Gustave",
     element: "Physical",
+    imageName: "lanceram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3713,
     attributes: {
       vitality: "S",
@@ -258,6 +275,7 @@ export const weapons = [
     name: "Liteso",
     character: "Gustave",
     element: "Physical",
+    imageName: "liteso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3551,
     attributes: {
       defense: "S",
@@ -273,6 +291,7 @@ export const weapons = [
     name: "Noahram",
     character: "Gustave",
     element: "Physical",
+    imageName: "noahram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2260,
     attributes: {
       vitality: "S"
@@ -287,6 +306,7 @@ export const weapons = [
     name: "Nosaram",
     character: "Gustave",
     element: "Physical",
+    imageName: "nosaram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3551,
     attributes: {
       agility: "S",
@@ -302,6 +322,7 @@ export const weapons = [
     name: "Sakaram",
     character: "Gustave",
     element: "Physical",
+    imageName: "sakaram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2938,
     attributes: {
       agility: "S",
@@ -317,6 +338,7 @@ export const weapons = [
     name: "Seeram",
     character: "Gustave",
     element: "Light",
+    imageName: "seeram_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3713,
     attributes: {
       vitality: "C",
@@ -332,6 +354,7 @@ export const weapons = [
     name: "Simoso",
     character: "Gustave",
     element: "Light",
+    imageName: "simoso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       vitality: "A",
@@ -347,6 +370,7 @@ export const weapons = [
     name: "Sireso",
     character: "Gustave",
     element: "Physical",
+    imageName: "sireso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 2583,
     attributes: {
       vitality: "A",
@@ -362,6 +386,7 @@ export const weapons = [
     name: "Tireso",
     character: "Gustave",
     element: "Earth",
+    imageName: "tireso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3713,
     attributes: {
       vitality: "S",
@@ -377,6 +402,7 @@ export const weapons = [
     name: "Verleso",
     character: "Gustave",
     element: "Physical",
+    imageName: "verleso_gustave_weapon_expedition_33_wiki_guide.webp",
     power: 3454,
     attributes: {
       vitality: "S"
@@ -391,6 +417,7 @@ export const weapons = [
     name: "Angerim",
     character: "Lune",
     element: "Fire",
+    imageName: "angerim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3923,
     attributes: {
       defense: "A",
@@ -406,6 +433,7 @@ export const weapons = [
     name: "Benisim",
     character: "Lune",
     element: "Earth",
+    imageName: "benisim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       vitality: "S",
@@ -421,6 +449,7 @@ export const weapons = [
     name: "Betelim",
     character: "Lune",
     element: "Earth",
+    imageName: "betelim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       vitality: "A",
@@ -436,6 +465,7 @@ export const weapons = [
     name: "Braselim",
     character: "Lune",
     element: "Fire",
+    imageName: "braselim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3390,
     attributes: {
       vitality: "A",
@@ -451,6 +481,7 @@ export const weapons = [
     name: "Chapelim",
     character: "Lune",
     element: "Earth",
+    imageName: "chapelim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3164,
     attributes: {
       defense: "A",
@@ -466,6 +497,7 @@ export const weapons = [
     name: "Choralim",
     character: "Lune",
     element: "Fire",
+    imageName: "choralim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3551,
     attributes: {
       defense: "S",
@@ -481,6 +513,7 @@ export const weapons = [
     name: "Colim",
     character: "Lune",
     element: "Light",
+    imageName: "colim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2583,
     attributes: {
       defense: "S",
@@ -496,6 +529,7 @@ export const weapons = [
     name: "Coralim",
     character: "Lune",
     element: "Ice",
+    imageName: "coralim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       vitality: "A",
@@ -511,6 +545,7 @@ export const weapons = [
     name: "Deminerim",
     character: "Lune",
     element: "Lightning",
+    imageName: "deminerim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       agility: "A",
@@ -526,6 +561,7 @@ export const weapons = [
     name: "Elerim",
     character: "Lune",
     element: "Earth",
+    imageName: "elerim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3551,
     attributes: {
       vitality: "S",
@@ -541,6 +577,7 @@ export const weapons = [
     name: "Kralim",
     character: "Lune",
     element: "Lightning",
+    imageName: "kralim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3390,
     attributes: {
       vitality: "A",
@@ -556,6 +593,7 @@ export const weapons = [
     name: "Lighterim",
     character: "Lune",
     element: "Fire",
+    imageName: "lighterim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       defense: "A",
@@ -571,6 +609,7 @@ export const weapons = [
     name: "Lithelim",
     character: "Lune",
     element: "Void",
+    imageName: "lithelim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3099,
     attributes: {
       vitality: "S"
@@ -585,6 +624,7 @@ export const weapons = [
     name: "Lunerim",
     character: "Lune",
     element: "Fire",
+    imageName: "lunerim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2421,
     attributes: {
       vitality: "A",
@@ -600,6 +640,7 @@ export const weapons = [
     name: "Painerim",
     character: "Lune",
     element: "Earth",
+    imageName: "painerim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       vitality: "A",
@@ -615,6 +656,7 @@ export const weapons = [
     name: "Potierim",
     character: "Lune",
     element: "Ice",
+    imageName: "potierim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2906,
     attributes: {
       defense: "A",
@@ -630,6 +672,7 @@ export const weapons = [
     name: "Redalim",
     character: "Lune",
     element: "Ice",
+    imageName: "redalim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 2583,
     attributes: {
       defense: "S",
@@ -645,6 +688,7 @@ export const weapons = [
     name: "Saperim",
     character: "Lune",
     element: "Lightning",
+    imageName: "saperim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       defense: "S",
@@ -660,6 +704,7 @@ export const weapons = [
     name: "Scaverim",
     character: "Lune",
     element: "Dark",
+    imageName: "scaverim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 4197,
     attributes: {
       vitality: "S",
@@ -675,6 +720,7 @@ export const weapons = [
     name: "Snowim",
     character: "Lune",
     element: "Ice",
+    imageName: "snowim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3874,
     attributes: {
       vitality: "A",
@@ -690,6 +736,7 @@ export const weapons = [
     name: "Trebuchim",
     character: "Lune",
     element: "Lightning",
+    imageName: "trebuchim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       vitality: "S",
@@ -705,6 +752,7 @@ export const weapons = [
     name: "Troubadim",
     character: "Lune",
     element: "Physical",
+    imageName: "troubadim_lune_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       vitality: "A",
@@ -720,6 +768,7 @@ export const weapons = [
     name: "Barrier Breaker",
     character: "Maelle",
     element: "Void",
+    imageName: "barrier_breaker_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3616,
     attributes: {
       defense: "S",
@@ -735,6 +784,7 @@ export const weapons = [
     name: "Battlum",
     character: "Maelle",
     element: "Physical",
+    imageName: "battlum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       defense: "S",
@@ -750,6 +800,7 @@ export const weapons = [
     name: "Brulerum",
     character: "Maelle",
     element: "Fire",
+    imageName: "brulerum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       agility: "A",
@@ -765,6 +816,7 @@ export const weapons = [
     name: "Chalium",
     character: "Maelle",
     element: "Light",
+    imageName: "chalium_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3422,
     attributes: {
       vitality: "A",
@@ -780,6 +832,7 @@ export const weapons = [
     name: "Chantenum",
     character: "Maelle",
     element: "Fire",
+    imageName: "chantenum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 2841,
     attributes: {
       agility: "A",
@@ -795,6 +848,7 @@ export const weapons = [
     name: "Clierum",
     character: "Maelle",
     element: "Lightning",
+    imageName: "clierum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3196,
     attributes: {
       defense: "A",
@@ -810,6 +864,7 @@ export const weapons = [
     name: "Coldum",
     character: "Maelle",
     element: "Ice",
+    imageName: "coldum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 2583,
     attributes: {
       vitality: "S",
@@ -825,6 +880,7 @@ export const weapons = [
     name: "Duenum",
     character: "Maelle",
     element: "Physical",
+    imageName: "duenum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 2421,
     attributes: {
       defense: "S",
@@ -840,6 +896,7 @@ export const weapons = [
     name: "Facesum",
     character: "Maelle",
     element: "Physical",
+    imageName: "facesum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3519,
     attributes: {
       vitality: "A",
@@ -855,6 +912,7 @@ export const weapons = [
     name: "Glaisum",
     character: "Maelle",
     element: "Physical",
+    imageName: "glaisum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3713,
     attributes: {
       defense: "S",
@@ -870,6 +928,7 @@ export const weapons = [
     name: "Jarum",
     character: "Maelle",
     element: "Physical",
+    imageName: "jarum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 2583,
     attributes: {
       defense: "S",
@@ -885,6 +944,7 @@ export const weapons = [
     name: "Lithum",
     character: "Maelle",
     element: "Void",
+    imageName: "lithum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       agility: "A",
@@ -900,6 +960,7 @@ export const weapons = [
     name: "Maellum",
     character: "Maelle",
     element: "Physical",
+    imageName: "maellum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       vitality: "S"
@@ -914,6 +975,7 @@ export const weapons = [
     name: "Medalum",
     character: "Maelle",
     element: "Physical",
+    imageName: "medalum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 2906,
     attributes: {
       defense: "S",
@@ -929,6 +991,7 @@ export const weapons = [
     name: "Melarum",
     character: "Maelle",
     element: "Physical",
+    imageName: "melarum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3584,
     attributes: {
       vitality: "S",
@@ -944,6 +1007,7 @@ export const weapons = [
     name: "Plenum",
     character: "Maelle",
     element: "Ice",
+    imageName: "plenum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3035,
     attributes: {
       defense: "A",
@@ -959,6 +1023,7 @@ export const weapons = [
     name: "Seashelum",
     character: "Maelle",
     element: "Fire",
+    imageName: "seashelum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3003,
     attributes: {
       defense: "A",
@@ -974,6 +1039,7 @@ export const weapons = [
     name: "Sekarum",
     character: "Maelle",
     element: "Physical",
+    imageName: "sekarum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3390,
     attributes: {
       vitality: "S",
@@ -989,6 +1055,7 @@ export const weapons = [
     name: "Stalum",
     character: "Maelle",
     element: "Fire",
+    imageName: "stalum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       defense: "S",
@@ -1004,6 +1071,7 @@ export const weapons = [
     name: "Tissenum",
     character: "Maelle",
     element: "Earth",
+    imageName: "tissenum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3874,
     attributes: {
       vitality: "A",
@@ -1019,6 +1087,7 @@ export const weapons = [
     name: "Veremum",
     character: "Maelle",
     element: "Physical",
+    imageName: "veremum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3293,
     attributes: {
       vitality: "A",
@@ -1034,6 +1103,7 @@ export const weapons = [
     name: "Volesterum",
     character: "Maelle",
     element: "Physical",
+    imageName: "volesterum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3293,
     attributes: {
       vitality: "A",
@@ -1049,6 +1119,7 @@ export const weapons = [
     name: "Yeverum",
     character: "Maelle",
     element: "Physical",
+    imageName: "yeverum_maelle_weapon_expedition_33_wiki_guide.webp",
     power: 3358,
     attributes: {
       defense: "S",
@@ -1064,6 +1135,7 @@ export const weapons = [
     name: "Algueron",
     character: "Sciel",
     element: "Ice",
+    imageName: "algueron_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       vitality: "S",
@@ -1079,6 +1151,7 @@ export const weapons = [
     name: "Blizzon",
     character: "Sciel",
     element: "Ice",
+    imageName: "blizzon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 4197,
     attributes: {
       luck: "S"
@@ -1093,6 +1166,7 @@ export const weapons = [
     name: "Bourgelon",
     character: "Sciel",
     element: "Light",
+    imageName: "bourgelon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3099,
     attributes: {
       vitality: "A",
@@ -1108,6 +1182,7 @@ export const weapons = [
     name: "Charnon",
     character: "Sciel",
     element: "Void",
+    imageName: "charnon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 2970,
     attributes: {
       defense: "A",
@@ -1123,6 +1198,7 @@ export const weapons = [
     name: "Chation",
     character: "Sciel",
     element: "Dark",
+    imageName: "chation_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3551,
     attributes: {
       vitality: "A",
@@ -1138,6 +1214,7 @@ export const weapons = [
     name: "Corderon",
     character: "Sciel",
     element: "Dark",
+    imageName: "corderon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       defense: "S",
@@ -1153,6 +1230,7 @@ export const weapons = [
     name: "Direton",
     character: "Sciel",
     element: "Earth",
+    imageName: "direton_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 4035,
     attributes: {
       defense: "A",
@@ -1168,6 +1246,7 @@ export const weapons = [
     name: "Garganon",
     character: "Sciel",
     element: "Fire",
+    imageName: "garganon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3132,
     attributes: {
       vitality: "S",
@@ -1183,6 +1262,7 @@ export const weapons = [
     name: "Gobluson",
     character: "Sciel",
     element: "Fire",
+    imageName: "gobluson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3358,
     attributes: {
       defense: "S",
@@ -1198,6 +1278,7 @@ export const weapons = [
     name: "Guleson",
     character: "Sciel",
     element: "Lightning",
+    imageName: "guleson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3132,
     attributes: {
       agility: "A",
@@ -1213,6 +1294,7 @@ export const weapons = [
     name: "Hevasson",
     character: "Sciel",
     element: "Physical",
+    imageName: "hevasson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3454,
     attributes: {
       vitality: "S",
@@ -1228,6 +1310,7 @@ export const weapons = [
     name: "Litheson",
     character: "Sciel",
     element: "Physical",
+    imageName: "litheson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 2809,
     attributes: {
       agility: "A",
@@ -1243,6 +1326,7 @@ export const weapons = [
     name: "Lusteson",
     character: "Sciel",
     element: "Dark",
+    imageName: "lusteson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3422,
     attributes: {
       vitality: "S",
@@ -1258,6 +1342,7 @@ export const weapons = [
     name: "Martenon",
     character: "Sciel",
     element: "Earth",
+    imageName: "martenon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3874,
     attributes: {
       vitality: "S",
@@ -1273,6 +1358,7 @@ export const weapons = [
     name: "Minason",
     character: "Sciel",
     element: "Physical",
+    imageName: "minason_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 2809,
     attributes: {
       vitality: "A",
@@ -1288,6 +1374,7 @@ export const weapons = [
     name: "Moisson",
     character: "Sciel",
     element: "Physical",
+    imageName: "moisson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3325,
     attributes: {
       agility: "S",
@@ -1303,6 +1390,7 @@ export const weapons = [
     name: "Ramasson",
     character: "Sciel",
     element: "Physical",
+    imageName: "ramasson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3519,
     attributes: {
       vitality: "A",
@@ -1318,6 +1406,7 @@ export const weapons = [
     name: "Rangeson",
     character: "Sciel",
     element: "Dark",
+    imageName: "rangeson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3132,
     attributes: {
       defense: "A",
@@ -1333,6 +1422,7 @@ export const weapons = [
     name: "Sadon",
     character: "Sciel",
     element: "Light",
+    imageName: "sadon_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 2583,
     attributes: {
       defense: "A",
@@ -1348,6 +1438,7 @@ export const weapons = [
     name: "Scieleson",
     character: "Sciel",
     element: "Physical",
+    imageName: "scieleson_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3454,
     attributes: {
       agility: "S",
@@ -1363,6 +1454,7 @@ export const weapons = [
     name: "Tisseron",
     character: "Sciel",
     element: "Lightning",
+    imageName: "tisseron_sciel_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       defense: "A",
@@ -1378,6 +1470,7 @@ export const weapons = [
     name: "Ballaro",
     character: "Monoco",
     element: "Light",
+    imageName: "ballaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3067,
     attributes: {
       defense: "A",
@@ -1393,6 +1486,7 @@ export const weapons = [
     name: "Boucharo",
     character: "Monoco",
     element: "Fire",
+    imageName: "boucharo_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3228,
     attributes: {
       agility: "A",
@@ -1408,6 +1502,7 @@ export const weapons = [
     name: "Brumaro",
     character: "Monoco",
     element: "Physical",
+    imageName: "brumarom_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3390,
     attributes: {
       vitality: "S",
@@ -1423,6 +1518,7 @@ export const weapons = [
     name: "Chromaro",
     character: "Monoco",
     element: "Ice",
+    imageName: "chromaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3390,
     attributes: {
       defense: "A",
@@ -1438,6 +1534,7 @@ export const weapons = [
     name: "Fragaro",
     character: "Monoco",
     element: "Lightning",
+    imageName: "fragaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 4197,
     attributes: {
       defense: "A",
@@ -1453,6 +1550,7 @@ export const weapons = [
     name: "Grandaro",
     character: "Monoco",
     element: "Earth",
+    imageName: "grandaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3551,
     attributes: {
       vitality: "S",
@@ -1468,6 +1566,7 @@ export const weapons = [
     name: "Joyaro",
     character: "Monoco",
     element: "Lightning",
+    imageName: "joyaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3713,
     attributes: {
       defense: "A",
@@ -1483,6 +1582,7 @@ export const weapons = [
     name: "Monocaro",
     character: "Monoco",
     element: "Physical",
+    imageName: "monocaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 2744,
     attributes: {
       agility: "S",
@@ -1498,6 +1598,7 @@ export const weapons = [
     name: "Nusaro",
     character: "Monoco",
     element: "Dark",
+    imageName: "nusaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 4197,
     attributes: {
       vitality: "A",
@@ -1513,6 +1614,7 @@ export const weapons = [
     name: "Sidaro",
     character: "Monoco",
     element: "Dark",
+    imageName: "sidaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3035,
     attributes: {
       might: "A",
@@ -1528,6 +1630,7 @@ export const weapons = [
     name: "Urnaro",
     character: "Monoco",
     element: "Earth",
+    imageName: "urnaro_monoco_weapon_expedition_33_wiki_guide.webp",
     power: 3422,
     attributes: {
       vitality: "S",
