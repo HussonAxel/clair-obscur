@@ -17,7 +17,7 @@ export const characters = [
     image: "/assets/characters/gustave.webp",
     background: "/assets/characters/gustave.webp",
     portrait: "/assets/characters/gustave/gustave-portrait.webp",
-    video: "/assets/characters/gustave/gustave-video.mp4",
+    video: "/assets/characters/gustave/gustave-video-1.mp4",
     videoCharacterTrailer: "https://youtu.be/rWXYBSohs0o",
     id: 2,
     reverse: false,
