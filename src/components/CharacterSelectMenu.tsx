@@ -19,7 +19,9 @@ export default function CharacterSelectMenu() {
     const visible: Character[] = [];
     for (let i = 0; i < displayCount; i++) {
       const charIndex = currentIndex + i;
-      const actualIndex = ((charIndex % characters.length) + characters.length) % characters.length;
+      const actualIndex =
+        ((charIndex % characters.length) + characters.length) %
+        characters.length;
       visible.push(characters[actualIndex]);
     }
     return visible;
@@ -28,7 +30,7 @@ export default function CharacterSelectMenu() {
   const visibleCharacters = getVisibleCharacters();
 
   const handleScroll = (event: React.WheelEvent) => {
-    event.preventDefault(); 
+    event.preventDefault();
     if (event.deltaY > 0) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
     } else if (event.deltaY < 0) {
@@ -41,22 +43,23 @@ export default function CharacterSelectMenu() {
       className="bg-black flex flex-col justify-center overflow-hidden h-[calc(100vh-66px)]"
       onWheel={handleScroll}
     >
-      <div className="w-full h-[calc(100vh-66px)] group overflow-hidden">
+      <div className="w-full h-[calc(100vh-66px)] overflow-hidden">
         {visibleCharacters.map((character) => (
-          <Link to="/character/$name" params={{ name: character.name }} key={character.id.toString()}>
-            <div
-              key={character.id.toString()}
-              className="relative group/item border-b-2 border-white/20 h-[calc((100vh-66px)/4)]"
-            >
+          <Link
+            to="/character/$name"
+            params={{ name: character.name }}
+            key={character.id.toString()}
+          >
+            <div className="relative group border-b-2 border-white/20 h-[calc((100vh-66px)/4)] overflow-hidden">
               <video
                 src={character.video}
-                className="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-0 group-hover/item:opacity-100 transition-opacity duration-500 z-0"
+                className="absolute inset-0 w-full h-full object-cover object-[center_30%] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 autoPlay
                 loop
                 muted
                 playsInline
               />
-              <div className="grid grid-cols-2 items-center w-full h-full transition-opacity duration-300 opacity-100 group-hover:opacity-30 group-hover/item:!opacity-100 relative z-10">
+              <div className="grid grid-cols-2 items-center w-full h-full transition-opacity duration-300 opacity-100 group-hover:opacity-30 relative z-10">
                 <span className="text-white text-lg font-extralight pl-32 tracking-widest select-none">
                   {String(character.id).padStart(2, "0")}
                 </span>

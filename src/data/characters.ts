@@ -6,17 +6,18 @@ export const characters = [
     image: "/assets/characters/esquie.webp",
     background: "/assets/characters/esquie.webp",
     portrait: "/assets/characters/esquie/esquie-portrait.webp",
-    video: "/videos/characters/esquie-video.mp4",
+    video: "/assets/characters/esquie/esquie-video.mp4",
     id: 1,
     reverse: false,
   },
   {
     name: "Gustave",
-    description: "A resourceful and dedicated Engineer who is chosen to lead the 33rd Expedition. He devotes his final year to defeating the Paintress and to reclaim the future for the youngins of Lumiere. His persistence comes from the choking feeling of the Patinress' constant presence over Lumière and the anxieties of inevitable death.",
+    description:
+      "A resourceful and dedicated Engineer who is chosen to lead the 33rd Expedition. He devotes his final year to defeating the Paintress and to reclaim the future for the youngins of Lumiere. His persistence comes from the choking feeling of the Patinress' constant presence over Lumière and the anxieties of inevitable death.",
     image: "/assets/characters/gustave.webp",
     background: "/assets/characters/gustave.webp",
     portrait: "/assets/characters/gustave/gustave-portrait.webp",
-    video: "/videos/characters/gustave-video.mp4",
+    video: "/assets/characters/gustave/gustave-video.mp4",
     videoCharacterTrailer: "https://youtu.be/rWXYBSohs0o",
     id: 2,
     reverse: false,
@@ -28,16 +29,17 @@ export const characters = [
       attackPower: 49,
       speed: 212,
       defense: 0,
-      criticalRate: 8
-    }
+      criticalRate: 8,
+    },
   },
   {
     name: "Lune",
-    description: "Lune is a passionate Scholar and Mage who is in charge of charting a path for the 33rd Expedition. This gives her the weight of responsibility to make sure that the Expedition does not fail. She is the daughter of two prominent researchers, and she inherits her deep thirst for knowledge and discoveries. That being said, she will make sure and will sacrifice everything in order to complete her parents' work. Lune is the first character you find while exploring as Gustave at the beginning of the game. She accompanies Gustave to satisfy her curiosity about the Paintress. A unique detail about Lune is that when sprinting, instead of running on the ground, she will levitate and glide towards the direction you are controlling her in.",
+    description:
+      "Lune is a passionate Scholar and Mage who is in charge of charting a path for the 33rd Expedition. This gives her the weight of responsibility to make sure that the Expedition does not fail. She is the daughter of two prominent researchers, and she inherits her deep thirst for knowledge and discoveries. That being said, she will make sure and will sacrifice everything in order to complete her parents' work. Lune is the first character you find while exploring as Gustave at the beginning of the game. She accompanies Gustave to satisfy her curiosity about the Paintress. A unique detail about Lune is that when sprinting, instead of running on the ground, she will levitate and glide towards the direction you are controlling her in.",
     image: "/assets/characters/lune.webp",
     background: "/assets/characters/lune.webp",
     portrait: "/assets/characters/lune/lune-portrait.webp",
-    video: "/videos/characters/lune-video.mp4",
+    video: "/assets/characters/lune/lune-video.mp4",
     videoCharacterTrailer: "https://youtu.be/2-9NUF1fguw",
     id: 3,
     reverse: false,
@@ -49,16 +51,17 @@ export const characters = [
       attackPower: 51,
       speed: 200,
       defense: 0,
-      criticalRate: 5
-    }
+      criticalRate: 5,
+    },
   },
   {
     name: "Maelle",
-    description: "Maelle is the foster sister of Gustave, though she is more of a shy loner, but is eager to fly; her reasoning to join the 33rd Expedition at the age of 16 is to explore the world outside of Lumiere. She was orphaned at the young age of 3 and has never felt like she fit in anywhere in Lumiere, but has a deep appreciation and trust towards Gustave. Maelle is the third character you find, as seen in the Demo of CO: E33. Gustave is eager to find Maelle when he hears that she is alive, but Lune believes it might be a trap.",
+    description:
+      "Maelle is the foster sister of Gustave, though she is more of a shy loner, but is eager to fly; her reasoning to join the 33rd Expedition at the age of 16 is to explore the world outside of Lumiere. She was orphaned at the young age of 3 and has never felt like she fit in anywhere in Lumiere, but has a deep appreciation and trust towards Gustave. Maelle is the third character you find, as seen in the Demo of CO: E33. Gustave is eager to find Maelle when he hears that she is alive, but Lune believes it might be a trap.",
     image: "/assets/characters/maelle.webp",
     background: "/assets/characters/maelle.webp",
     portrait: "/assets/characters/maelle/maelle-portrait.webp",
-    video: "/videos/characters/maelle-video.mp4",
+    video: "/assets/characters/maelle/maelle-video.mp4",
     videoCharacterTrailer: "https://youtu.be/xdD1Jch6UK0",
     id: 4,
     reverse: true,
@@ -70,16 +73,17 @@ export const characters = [
       attackPower: 105,
       speed: 212,
       defense: 0,
-      criticalRate: 5
-    }
+      criticalRate: 5,
+    },
   },
   {
     name: "Monoco",
-    description: "Monoco is a Gestral, a group of friendly beings who enjoy the thrill of battle and view competition as a form of meditation. As one of the few Gestrals who speak the human language, Monoco has adopted a scholarly demeanour which belies a bloodthirsty spirit. Though Gestrals are untouched by the Paintress, the prospect of combat entices Monoco to join the Expedition.",
+    description:
+      "Monoco is a Gestral, a group of friendly beings who enjoy the thrill of battle and view competition as a form of meditation. As one of the few Gestrals who speak the human language, Monoco has adopted a scholarly demeanour which belies a bloodthirsty spirit. Though Gestrals are untouched by the Paintress, the prospect of combat entices Monoco to join the Expedition.",
     image: "/assets/characters/monoco.webp",
     background: "/assets/characters/monoco.webp",
     portrait: "/assets/characters/monoco/monoco-portrait.webp",
-    video: "/videos/characters/monoco-video.mp4",
+    video: "/assets/characters/monoco/monoco-video.mp4",
     videoCharacterTrailer: "https://youtu.be/AjDH4_uPsFQ",
     id: 5,
     reverse: false,
@@ -91,8 +95,8 @@ export const characters = [
       attackPower: 491,
       speed: 304,
       defense: 0,
-      criticalRate: 5
-    }
+      criticalRate: 5,
+    },
   },
   {
     name: "Renoir",
@@ -101,17 +105,18 @@ export const characters = [
     image: "/assets/characters/renoir.webp",
     background: "/assets/characters/renoir.webp",
     portrait: "/assets/characters/renoir/renoir-portrait.webp",
-    video: "/videos/characters/renoir-video.mp4",
+    video: "/assets/characters/renoir/renoir-video.mp4",
     id: 6,
     reverse: true,
   },
   {
     name: "Sciel",
-    description: "Sciel is a cheerful yet serene Warrior who wields a Scythe and has put all her commitment into the Expedition to make sure they do not fail. Growing up, Sciel was a farmer until she became a teacher. Her carefree personality allows her to enjoy life and accept the fate she will have at the hands of the Paintress.",
+    description:
+      "Sciel is a cheerful yet serene Warrior who wields a Scythe and has put all her commitment into the Expedition to make sure they do not fail. Growing up, Sciel was a farmer until she became a teacher. Her carefree personality allows her to enjoy life and accept the fate she will have at the hands of the Paintress.",
     image: "/assets/characters/sciel.webp",
     background: "/assets/characters/sciel.webp",
     portrait: "/assets/characters/sciel/sciel-portrait.webp",
-    video: "/videos/characters/sciel-video.mp4",
+    video: "/assets/characters/sciel/sciel-video.mp4",
     videoCharacterTrailer: "https://youtu.be/QUfuYbeOi5c",
     id: 7,
     reverse: true,
@@ -123,16 +128,17 @@ export const characters = [
       attackPower: 273,
       speed: 251,
       defense: 0,
-      criticalRate: 5
-    }
+      criticalRate: 5,
+    },
   },
   {
     name: "Verso",
-    description: "Verso is a member of Expedition Zero. He wanders The Continent and keeps a close eye on the surviving members of Expedition 33. Verso is an experienced fighter and can fight against any threat that comes his way. Verso joins Expedition 33 to achieve the goal of stopping the Paintress from ever painting again.",
+    description:
+      "Verso is a member of Expedition Zero. He wanders The Continent and keeps a close eye on the surviving members of Expedition 33. Verso is an experienced fighter and can fight against any threat that comes his way. Verso joins Expedition 33 to achieve the goal of stopping the Paintress from ever painting again.",
     image: "/assets/characters/verso.webp",
     background: "/assets/characters/verso.webp",
     portrait: "/assets/characters/verso/verso-portrait.webp",
-    video: "/videos/characters/verso-video.mp4",
+    video: "/assets/characters/verso/verso-video.mp4",
     id: 8,
     reverse: true,
     weaponType: "Sword & Dagger",
@@ -143,7 +149,7 @@ export const characters = [
       attackPower: 666,
       speed: 374,
       defense: 71,
-      criticalRate: 14
-    }
+      criticalRate: 14,
+    },
   },
 ];
