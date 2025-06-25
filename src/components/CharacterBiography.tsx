@@ -25,7 +25,7 @@ export default function CharacterBiography({
       <img
         src={characterPortrait}
         alt={characterName}
-        className="w-2/5 h-auto"
+        className="max-w-xs w-full aspect-[3/4] object-cover rounded-xl shadow-2xl"
       />
       <div>
         <div>
